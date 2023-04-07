@@ -24,4 +24,6 @@ OUT
 sudo mv $tmpfile /etc/udev/rules.d/11-ftdi.rules
 fi
 
+# Install OpenOCD
+sudo apt install openocd
 
