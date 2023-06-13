@@ -4,7 +4,14 @@ Started in 2017 by Russ Bielawski and [Bill Hass](https://twitter.com/bhass_), t
 
 This is the public facing repository for the hardware reverse engineering class materials.
 
-## CyberTruck 2019
+## CyberTruck 2023
+**Instructor:** Bill Hass
+
+**Target:** PeopleNet G3 OBC
+
+**Outcome:** Teach basic HW RE from metal encased TCU to dumping firmware via JTAG. Introduce basic tools skills, capture serial boot logs, overcome JTAG protections, and extract firmware via JTAG.
+
+## CyberTruck 2019 & 2021
 **Instructor:** Bill Hass
 
 **Target:** Smart Sensor Simulator Daughter Board
@@ -22,4 +29,4 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 
 ![CC4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
-Copyright © 2019, 2017 Bill Hass; © 2017 Russ Bielawski
+Copyright © 2023, 2021, 2019, 2017 Bill Hass; © 2017 Russ Bielawski

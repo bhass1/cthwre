@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+#
+# SPDX-License-Identifier: CC-BY-4.0
+# Copyright 2023 Bill Hass
+#
+# Setup script for setting up a vanilla Ubuntu 22.04 environment for class
 
 set -euox pipefail
 
@@ -7,7 +12,6 @@ sudo apt install sigrok
 
 # Snap "classic" confinement only supported now; see https://github.com/tio/tio/issues/188
 snap install tio --classic
-
 
 # Tigard (ft2232h) python apps; see https://eblot.github.io/pyftdi/
 pip3 install pyftdi
