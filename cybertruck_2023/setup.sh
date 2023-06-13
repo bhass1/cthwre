@@ -31,3 +31,7 @@ fi
 # Install OpenOCD
 sudo apt install openocd
 
+# Extract datasheets tar
+if [ ! -d datasheets ]; then
+  tar xzvf datasheets.tar.gz
+fi
