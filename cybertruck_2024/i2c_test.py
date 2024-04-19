@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: CC-BY-4.0
-# Copyright 202 Bill Hass
+# Copyright 2024 Bill Hass
 #
 # Test script for checking i2c comm is working with ST25DV64KC
 #
@@ -23,9 +23,9 @@ ST25DV64KC_RF_SWITCH_ON = 0x55
 
 print(f'Opening port on 0x{ST25DV64KC_ADDR_SYS:02x}')
 i2c = i2c_ctrl.get_port(ST25DV64KC_ADDR_SYS)
-UID_LEN = 8 # bytes
-uid_val = i2c.read_from(0x18, UID_LEN)
-print(f'{uid_val=}')
-
-i2c_cfg_val = i2c.read_from(0xE, 1)
+i2c_cfg_val = i2c.exchange([0x00, 0x0E], 1)
 print(f'{i2c_cfg_val=}')
+
+UID_LEN = 8 # bytes
+uid_val = i2c.exchange([0x00, 0x18], UID_LEN)
+print(f'{uid_val=}')
