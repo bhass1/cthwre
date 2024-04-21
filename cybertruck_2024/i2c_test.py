@@ -5,27 +5,22 @@
 #
 
 from pyftdi.ftdi import Ftdi as ftdi
-from pyftdi.i2c import I2cController
-ftdi.show_devices()
+from st25dvxxkc import St25dv64kc
 from os import environ
+
+ftdi.show_devices()
 ftdi_url = environ.get('FTDI_DEVICE', 'ftdi:///2')
 
-# pyftdi.ftdi.i2c docs https://eblot.github.io/pyftdi/api/i2c.html
 i2c_ctrl = I2cController()
 i2c_ctrl.configure(ftdi_url)
 print(f'{i2c_ctrl.frequency=}')
 
-# Taken from https://github.com/sparkfun/SparkFun_ST25DV64KC_Arduino_Library/blob/main/src/SparkFun_ST25DV64KC_Arduino_Library_Constants.h
-ST25DV64KC_ADDR_DATA = 0x53
-ST25DV64KC_ADDR_SYS = 0x57
-ST25DV64KC_RF_SWITCH_OFF = 0x51
-ST25DV64KC_RF_SWITCH_ON = 0x55
+st25dv = St25dv64kc(i2c_ctrl)
 
-print(f'Opening port on 0x{ST25DV64KC_ADDR_SYS:02x}')
-i2c = i2c_ctrl.get_port(ST25DV64KC_ADDR_SYS)
-i2c_cfg_val = i2c.exchange([0x00, 0x0E], 1)
+i2c_cfg_val = st25dv.get_i2c_ctrl()
 print(f'{i2c_cfg_val=}')
-
-UID_LEN = 8 # bytes
-uid_val = i2c.exchange([0x00, 0x18], UID_LEN)
+uid_val = st25dv.get_device_UID()
 print(f'{uid_val=}')
+
+if st25dv.unlock_i2c():
+    st25dv.lock_ccfile()
