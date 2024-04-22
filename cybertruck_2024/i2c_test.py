@@ -1,11 +1,12 @@
 # SPDX-License-Identifier: CC-BY-4.0
 # Copyright 2024 Bill Hass
 #
-# Test script for checking i2c comm is working with ST25DV64KC
+# Test script for checking basic i2c functionality with ST25DV64KC
 #
 
 from pyftdi.ftdi import Ftdi as ftdi
-from st25dvxxkc import St25dv64kc
+from pyftdi.i2c import I2cController
+from st25dvxxkc import St25dv64kc, RFA1SS_ADDR
 from os import environ
 
 ftdi.show_devices()
@@ -18,9 +19,9 @@ print(f'{i2c_ctrl.frequency=}')
 st25dv = St25dv64kc(i2c_ctrl)
 
 i2c_cfg_val = st25dv.get_i2c_ctrl()
-print(f'{i2c_cfg_val=}')
+print(f'{i2c_cfg_val.hex()=}')
 uid_val = st25dv.get_device_UID()
-print(f'{uid_val=}')
+print(f'{uid_val.hex()=}')
 
 if st25dv.unlock_i2c():
-    st25dv.lock_ccfile()
+    print(f'{st25dv.read_sys_mem(RFA1SS_ADDR, 1).hex()}')
