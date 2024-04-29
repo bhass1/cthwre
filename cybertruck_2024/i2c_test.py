@@ -18,10 +18,16 @@ print(f'{i2c_ctrl.frequency=}')
 
 st25dv = St25dv64kc(i2c_ctrl)
 
-i2c_cfg_val = st25dv.get_i2c_ctrl()
-print(f'{i2c_cfg_val.hex()=}')
+is_kc = st25dv.is_kc()
+if is_kc:
+    print(f'This is a "KC" series part')
+    i2c_cfg_val = st25dv.get_i2c_ctrl()
+    print(f'{i2c_cfg_val.hex()=}')
+else:
+    print(f'This is a "K" series part')
+
 uid_val = st25dv.get_device_UID()
 print(f'{uid_val.hex()=}')
 
 if st25dv.unlock_i2c():
-    print(f'{st25dv.read_sys_mem(RFA1SS_ADDR, 1).hex()}')
+    print(f'{st25dv.read_sys_mem(RFA1SS_ADDR, 1).hex()=}')
