@@ -4,7 +4,7 @@ Started in 2017 by Russ Bielawski and [Bill Hass](https://twitter.com/bhass_), t
 
 This is the public facing repository for the hardware reverse engineering class materials.
 
-## CyberTruck 2023
+## CyberTruck 2023 & 2024 and CyberDrone 2024
 **Instructor:** Bill Hass
 
 **Target:** PeopleNet G3 OBC

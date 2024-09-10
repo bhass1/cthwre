@@ -10,8 +10,8 @@ set -euox pipefail
 # BitMagic Basic UI front-end
 sudo apt install sigrok
 
-# Snap "classic" confinement only supported now; see https://github.com/tio/tio/issues/188
-snap install tio --classic
+# Serial terminal emulator
+sudo apt install tio
 
 # Tigard (ft2232h) python apps; see https://eblot.github.io/pyftdi/
 pip3 install pyftdi
