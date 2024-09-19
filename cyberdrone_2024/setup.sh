@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
 # SPDX-License-Identifier: CC-BY-4.0
-# Copyright 2023 Bill Hass
+# Copyright 2024, 2023 Bill Hass
 #
-# Setup script for setting up a vanilla Ubuntu 22.04 environment for class
+# Setup script for setting up a vanilla Ubuntu 22.04 or 24.04 environment for class
 
 set -euox pipefail
 
@@ -41,6 +41,9 @@ sudo apt install -y openocd
 
 # Install UNIX binary RE tools
 sudo apt install -y binutils
+
+# Install an editor and hex editor
+sudo apt install -y vim dhex
 
 # Extract datasheets tar
 if [ ! -d datasheets ]; then
