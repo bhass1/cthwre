@@ -7,17 +7,25 @@
 
 set -euox pipefail
 
+# Get latest apt package info
+sudo apt update
+
 # BitMagic Basic UI front-end
-sudo apt install sigrok
+sudo apt install -y sigrok
 
 # Serial terminal emulator
-sudo apt install tio
+sudo apt install -y tio
+
+# Make sure python is available and a virtual environment is configured
+sudo apt install python3 python3-venv
+python3 -m venv ./python
+source ./python/bin/activate
 
 # Tigard (ft2232h) python apps; see https://eblot.github.io/pyftdi/
-pip3 install pyftdi
+python3 -m pip install pyftdi
 
 # Setup for pyftdi; see https://eblot.github.io/pyftdi/installation.html#debian-ubuntu-linux 
-sudo apt install libusb-1.0-0
+sudo apt install -y libusb-1.0-0
 
 tmpfile=$(mktemp)
 if [ ! -f /etc/udev/rules.d/11-ftdi.rules ]; then
@@ -29,7 +37,10 @@ sudo mv $tmpfile /etc/udev/rules.d/11-ftdi.rules
 fi
 
 # Install OpenOCD
-sudo apt install openocd
+sudo apt install -y openocd
+
+# Install UNIX binary RE tools
+sudo apt install -y binutils
 
 # Extract datasheets tar
 if [ ! -d datasheets ]; then
