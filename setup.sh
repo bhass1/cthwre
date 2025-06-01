@@ -17,7 +17,7 @@ sudo apt install -y sigrok
 sudo apt install -y tio
 
 # Make sure python is available and a virtual environment is configured
-sudo apt install python3 python3-venv
+sudo apt install -y python3 python3-venv
 python3 -m venv ./python
 source ./python/bin/activate
 
