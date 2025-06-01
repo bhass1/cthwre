@@ -1,3 +1,0 @@
-12:47:58 **** Incremental Build of configuration Default for project Null_Project ****
-make all 
-/opt/local/bin/arm-none-eabi-objcopy null.elf -O binary null.list

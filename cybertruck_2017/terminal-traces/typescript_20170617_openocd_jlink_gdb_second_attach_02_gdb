@@ -1,77 +1,0 @@
-Script started on Sat Jun 17 18:31:54 2017
-[?1034h[2;35mruss[0m@zorak.local:[0;34m~/private/engineering/service/hardware_reverse_engineering_class/hardware-reverse-enngineering-class/tools/gdb[0m$ exitscriptcd jlink/[4P..telnet localhost 4444cd ..[Kjlink/[4P..telnet localhost 4444cd ..[Kjlink/[3Pscript[2Pexit[Karm-none-eabi-gdb -tui
-[?1034h[?1049h[1;80r(B[m[4l[?7h[?1h=[H[2J[54d(B[0;7mNone No process In:                                                                    L??   PC: ?? [55;1H(B[m[H   (0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B[2;4H(0[0mx(B[100G(0[0mx(B[3;4H(0[0mx(B[100G(0[0mx(B[4;4H(0[0mx(B[100G(0[0mx(B[5;4H(0[0mx(B[100G(0[0mx(B[6;4H(0[0mx(B[100G(0[0mx(B[7;4H(0[0mx(B[100G(0[0mx(B[8;4H(0[0mx(B[100G(0[0mx(B[9;4H(0[0mx(B[100G(0[0mx(B[10;4H(0[0mx(B[100G(0[0mx(B[11;4H(0[0mx(B[100G(0[0mx(B[12;4H(0[0mx(B[100G(0[0mx(B[13;4H(0[0mx(B[100G(0[0mx(B[14;4H(0[0mx(B[100G(0[0mx(B[15;4H(0[0mx(B[100G(0[0mx(B[16;4H(0[0mx(B[100G(0[0mx(B[17;4H(0[0mx(B[100G(0[0mx(B[18;4H(0[0mx(B[100G(0[0mx(B[19;4H(0[0mx(B[100G(0[0mx(B[20;4H(0[0mx(B[100G(0[0mx(B[21;4H(0[0mx(B[100G(0[0mx(B[22;4H(0[0mx(B[100G(0[0mx(B[23;4H(0[0mx(B[100G(0[0mx(B[24;4H(0[0mx(B[100G(0[0mx(B[25;4H(0[0mx(B[100G(0[0mx(B[26;4H(0[0mx(B[100G(0[0mx(B[27;4H(0[0mx(B[100G(0[0mx(B[28;4H(0[0mx(B[100G(0[0mx(B[29;4H(0[0mx(B[100G(0[0mx(B[30;4H(0[0mx(B[100G(0[0mx(B[31;4H(0[0mx(B[100G(0[0mx(B[32;4H(0[0mx(B[100G(0[0mx(B[33;4H(0[0mx(B[100G(0[0mx(B[34;4H(0[0mx(B[100G(0[0mx(B[35;4H(0[0mx(B[100G(0[0mx(B[36;4H(0[0mx(B[100G(0[0mx(B[37;4H(0[0mx(B[100G(0[0mx(B[38;4H(0[0mx(B[100G(0[0mx(B[39;4H(0[0mx(B[100G(0[0mx(B[40;4H(0[0mx(B[100G(0[0mx(B[41;4H(0[0mx(B[100G(0[0mx(B[42;4H(0[0mx(B[100G(0[0mx(B[43;4H(0[0mx(B[100G(0[0mx(B[44;4H(0[0mx(B[100G(0[0mx(B[45;4H(0[0mx(B[100G(0[0mx(B[46;4H(0[0mx(B[100G(0[0mx(B[47;4H(0[0mx(B[100G(0[0mx(B[48;4H(0[0mx(B[100G(0[0mx(B[49;4H(0[0mx(B[100G(0[0mx(B[50;4H(0[0mx(B[100G(0[0mx(B[51;4H(0[0mx(B[100G(0[0mx(B[52;4H(0[0mx(B[100G(0[0mx(B[53;4H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B[1;4H(0[0m(B[27;28H[ No Source Available ][27;28H[23X[H   [27;28H[ No Source Available ][H[27;51H[?1h=[55d[H[2J   (0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B[2;4H(0[0mx(B[100G(0[0mx(B[3;4H(0[0mx(B[100G(0[0mx(B[4;4H(0[0mx(B[100G(0[0mx(B[5;4H(0[0mx(B[100G(0[0mx(B[6;4H(0[0mx(B[100G(0[0mx(B[7;4H(0[0mx(B[100G(0[0mx(B[8;4H(0[0mx(B[100G(0[0mx(B[9;4H(0[0mx(B[100G(0[0mx(B[10;4H(0[0mx(B[100G(0[0mx(B[11;4H(0[0mx(B[100G(0[0mx(B[12;4H(0[0mx(B[100G(0[0mx(B[13;4H(0[0mx(B[100G(0[0mx(B[14;4H(0[0mx(B[100G(0[0mx(B[15;4H(0[0mx(B[100G(0[0mx(B[16;4H(0[0mx(B[100G(0[0mx(B[17;4H(0[0mx(B[100G(0[0mx(B[18;4H(0[0mx(B[100G(0[0mx(B[19;4H(0[0mx(B[100G(0[0mx(B[20;4H(0[0mx(B[100G(0[0mx(B[21;4H(0[0mx(B[100G(0[0mx(B[22;4H(0[0mx(B[100G(0[0mx(B[23;4H(0[0mx(B[100G(0[0mx(B[24;4H(0[0mx(B[100G(0[0mx(B[25;4H(0[0mx(B[100G(0[0mx(B[26;4H(0[0mx(B[100G(0[0mx(B[27;4H(0[0mx(B[27;28H(0[0m(B[ No Source Available ][100G(0[0mx(B[28;4H(0[0mx(B[100G(0[0mx(B[29;4H(0[0mx(B[100G(0[0mx(B[30;4H(0[0mx(B[100G(0[0mx(B[31;4H(0[0mx(B[100G(0[0mx(B[32;4H(0[0mx(B[100G(0[0mx(B[33;4H(0[0mx(B[100G(0[0mx(B[34;4H(0[0mx(B[100G(0[0mx(B[35;4H(0[0mx(B[100G(0[0mx(B[36;4H(0[0mx(B[100G(0[0mx(B[37;4H(0[0mx(B[100G(0[0mx(B[38;4H(0[0mx(B[100G(0[0mx(B[39;4H(0[0mx(B[100G(0[0mx(B[40;4H(0[0mx(B[100G(0[0mx(B[41;4H(0[0mx(B[100G(0[0mx(B[42;4H(0[0mx(B[100G(0[0mx(B[43;4H(0[0mx(B[100G(0[0mx(B[44;4H(0[0mx(B[100G(0[0mx(B[45;4H(0[0mx(B[100G(0[0mx(B[46;4H(0[0mx(B[100G(0[0mx(B[47;4H(0[0mx(B[100G(0[0mx(B[48;4H(0[0mx(B[100G(0[0mx(B[49;4H(0[0mx(B[100G(0[0mx(B[50;4H(0[0mx(B[100G(0[0mx(B[51;4H(0[0mx(B[100G(0[0mx(B[52;4H(0[0mx(B[100G(0[0mx(B[53;4H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B[54;1H(0[0m(B[0;7mNone No process In:                                                                    L??   PC: ?? [1;1H(B[m[27;51H[54d[H   (0[0;1;7mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[2;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[3;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[4;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[5;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[6;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[7;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[8;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[9;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[10;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[11;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[12;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[13;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[14;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[15;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[16;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[17;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[18;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[19;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[20;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[21;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[22;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[23;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[24;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[25;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[26;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[27;4H(0[0;1;7mx(B(B[m[27;28H(0[0;1;7m(B(B[m[23X[100G(0[0;1;7mx(B(B[m[28;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[29;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[30;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[31;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[32;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[33;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[34;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[35;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[36;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[37;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[38;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[39;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[40;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[41;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[42;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[43;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[44;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[45;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[46;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[47;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[48;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[49;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[50;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[51;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[52;4H(0[0;1;7mx(B(B[m[100G(0[0;1;7mx(B(B[m[53;4H(0[0;1;7mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[1;4H(0[0;1;7m(B(B[m[27;28H[ No Source Available ][H[55dGNU gdb (GDB) 7.9
-Copyright (C) 2015 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
-and "show warranty" for details.
-This GDB was configured as "--host=x86_64-apple-darwin15.3.0 --target=arm-none-eabi".
-Type "show configuration" for configuration details.
-For bug reporting instructions, please see:
-<http://www.gnu.org/software/gdb/bugs/>.
-Find the GDB manual and other documentation resources online at:
-<http://www.gnu.org/software/gdb/documentation/>.
-For help, type "help".
-Type "apropos word" to search for commands related to "word".
-(gdb) dumb ihex memo0r  ry result.bin                     binary        p binary memory result.bin -x  0x00014000 0x00014               B0000000 0xB0000100
-Cannot access memory at address 0xb0000000
-(gdb) dump binary memory result.bin 0-x  x00000000 0x00001000
-Cannot access memory at address 0x0
-(gdb) stop
-[73;7H[Kst  help
-[55d(gdb) dump binary memory result.bin 0xB0000000 0xB0000100
-Cannot access memory at address 0xb0000000[K
-(gdb) dump binary memory result.bin 0x00000000 0x00001000[K
-Cannot access memory at address 0x0[K
-(gdb) help[K
-List of classes of commands:[K
-[K
-aliases -- Aliases of other commands[K
-breakpoints -- Making program stop at certain points
-data -- Examining data[K
-files -- Specifying and examining files[K
-internals -- Maintenance commands[K
-obscure -- Obscure features
-running -- Running the program[K
-stack -- Examining the stack[K
-status -- Status inquiries[K
-support -- Support facilities[K
-tracepoints -- Tracing of program execution without stopping the program
-user-defined -- User-defined commands
-
-Type "help" followed by a class name for a list of commands in that class.
-Type "help all" for the list of all commands.
-Type "help" followed by command name for full documentation.
-Type "apropos word" to search for commands related to "word".
-Command name abbreviations are allowed if unambiguous.
-(gdb) stp[o   op[55d[M[80d(gdb) haly[55d[M[80dUndefined command: "haly".  Try "help".[55d[M[80d(gdb) halt[55d[M[80dUndefined command: "halt".  Try "help".[55d[M[80d(gdb) Quit[55d[M[80d(gdb) target halt   pa   pause[55d[M[80dUndefined target command: "pause".  Try "help target".[55d[M[80d(gdb) target halt[55d[M[80dUndefined target command: "halt".  Try "help target".[55d[M[80d(gdb) target stop[55d[M[80dUndefined target command: "stop".  Try "help target".[55d[M[80d(gdb) target[55d[M[80d[55d[M[79dArgument required (target name).  Try `help target'
-(gdb) help target[55d[M[80d[55d(gdb) target[K
-Argument required (target name).  Try `help target'
-(gdb) help target[K
-Connect to a target machine or process.
-The first argument is the type or protocol of the target machine.
-Remaining arguments are interpreted by the target protocol.  For more[K
-information on the arguments for a particular protocol, type
-`help target ' followed by the protocol name.[K
-[K
-List of target subcommands:[K
-[K
-target core -- Use a core file as a target
-target exec -- Use an executable file as a target
-target extended-remote -- Use a remote computer via a serial line
-target record -- Log program while executing and replay execution from log
-target record-btrace -- Collect control-flow trace and provide the execution history
-target record-core -- Log program while executing and replay execution from log
-target record-full -- Log program while executing and replay execution from log
-target remote -- Use a remote computer via a serial line
-target sim -- Use the compiled-in simulator[K
-target tfile -- Use a trace file as a target
-[K
-Type "help target" followed by target subcommand name for full documentation.
-Type "apropos word" to search for commands related to "word".
-Command name abbreviations are allowed if unambiguous.
-(gdb) monitor halt[55d[M[80d"monitor" command not supported by this target.[55d[M[80d(gdb) tar target        target stop[55d[M[80dUndefined target command: "stop".  Try "help target".[55d[M[80d(gdb) target reset[55d[M[80dUndefined target command: "reset".  Try "help target".[55d[M[80d(gdb) exit[55d[M[80dUndefined command: "exit".  Try "help".[55d[M[80d(gdb) q[55d[M[80d[80;1H[?1049l[?1l>[2;35mruss[0m@zorak.local:[0;34m~/private/engineering/service/hardware_reverse_engineering_class/hardware-reverse-enngineering-class/tools/gdb[0m$ exit
-exit
-
-Script done on Sat Jun 17 19:04:17 2017

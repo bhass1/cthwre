@@ -1,9 +1,0 @@
-http://savannah.nongnu.org/projects/avrdude/
-http://download.savannah.gnu.org/releases/avrdude/
-
-https://www.nongnu.org/avrdude/user-manual/avrdude_6.html 
-http://www.nongnu.org/avrdude/user-manual/avrdude_4.html
-
-http://www.ladyada.net/learn/avr/avrdude.html 
-https://www.evilmadscientist.com/2011/avr-basics-reading-and-writing-flash-contents/
-https://learn.adafruit.com/usbtinyisp/avrdude
