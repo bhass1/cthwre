@@ -6,7 +6,7 @@ This is the public facing repository for the hardware reverse engineering class 
 
 Note: To find prior year's resources, navigate to the relevant git branch (e.g. `git checkout cybertruck_2017`)
 
-## CyberTruck 2025, 2024, & 2023 and CyberDrone 2024
+## CyberTruck 2025, 2024, & 2023 and CyberDrone 2025 & 2024
 **Instructor:** Bill Hass
 
 **Target:** PeopleNet G3 OBC
