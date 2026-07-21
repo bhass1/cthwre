@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # SPDX-License-Identifier: CC-BY-4.0
-# Copyright 2025, 2024, 2023 Bill Hass
+# Copyright 2026-2023 Bill Hass
 #
 # Setup script for setting up a vanilla Ubuntu 22.04 or 24.04 environment for class
 
